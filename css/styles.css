@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body {
+
+}
+
+h1, h2, h3, div, p, ul, li {
+	margin:0;
+	padding:0;
+}
+
+li {
+	list-style:none;
+}
+
+body {
+	margin:0 auto;
+	text-align:center;
+	padding:0;
+	background: #ffffff;
+	background: linear-gradient(top,#cccccc, #ffffff);
+	background: -webkit-linear-gradient(top, #cccccc, #ffffff);
+	background: -moz-linear-gradient(top,  #cccccc,  #ffffff);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ffffff');
+	background-repeat:no-repeat;
+	font-size: .625em;
+	color:#202020;
+	
+}
+
+#bg {
+	  /* fallback */
+	  background-color: #1a82f7;
+	  background: url(../images/linear_bg.png);
+	  background-repeat: repeat-x;
+	}
+	
+	
+
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.8em;
+	margin:15px 0;
+}
+			
+
+
+a {
+	color:#cc6600;
+	text-decoration:none;
+}
+
+	
+
+#wrapper {
+	width:800px;
+	padding:10px 20px;
+	text-align:left;
+	margin:0 auto;
+	overflow:hidden;
+	min-height:100%;
+	background:#fff;
+
+	font-family:Arial, "MS Trebuchet", sans-serif;
+	
+}
+
+#nav {
+	}
+
+#nav li {
+	display:inline;
+}
+
+
+#context{
+
+}
+
+.context {
+		font-size:14px; /*ie*/
+}
+
+.context-large {
+		font-size:16px; /*ie*/
+}
+
+.last-item {
+	border-right:none;
+}
+
+.section{
+	margin-left:20px;
+	float:left;
+	font-size:1.4em;
+	width:561px;
+	
+}
+
+
+
+.section p {
+	margin:10px 0 10px 0;
+}
+
+.aside {
+	font-size:1.2em;
+	float:left;
+	width:169px;
+}
+
+.article-photo {
+	background:url("../images/basketball.jpg") no-repeat;
+	width:169px;
+	height:265px;
+}
+
+.caption {
+	margin:5px 0;
+	text-align:right;
+	color:#666666;
+					
+}
+
+.footer-author span {
+	font-size:12px;
+}
+
+.pub-dates {
+	margin:10px 0;
+	border-bottom:1px dotted #202020;
+	padding-bottom:10px;
+	font-size:12px;
+}
+
+
+.options {
+	width:700px;
+	overflow:hidden;
+	}
+
+.options a {
+	padding:0 15px;
+}
+
+.options li {
+
+	padding:0 5px 0 5px;
+	margin-right:10px;
+	margin-top:5px;
+}
+
+.options li  {
+	background: url(../images/sprites.gif) no-repeat 0px -75px;
+	width:12px;
+	height:17px;
+	float:left;
+	border-right:1px solid #202020;
+	font-size:12px;
+	display:inline;
+}
+
+
+.options li.post {
+	background: url(../images/sprites.gif) no-repeat 0px -478px;
+	width:135px;
+
+}
+
+.options li.email {
+	background: url(../images/sprites.gif) no-repeat 0px -256px;
+	width:70px;
+}
+
+.options li.print {
+	background: url(../images/sprites.gif) no-repeat 0px -298px;
+	width:65px;
+}
+
+.options li.share {
+	background: url(../images/sprites.gif) no-repeat 0px -342px;
+	width:65px;
+}
+
+.options li.expand {
+	background:  url(../images/sprites.gif) no-repeat 0px -388px;
+	width:150px;
+		color:#cc6600;
+		cursor:pointer;
+		padding: 0 15px;
+		
+}
+
+
+.aside-list {
+	margin:3px 0 3px 0;
+}
+
+.expand-text{
+	font-size:1.8em;
+}
+
+.options li.collapse  {
+background: url(../images/sprites.gif) no-repeat 0px -435px;
+	width:150px;
+	color:#cc6600;
+padding:0 15px;
+	cursor:pointer;
+}
+
